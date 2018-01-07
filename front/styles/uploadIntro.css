@@ -1,0 +1,196 @@
+body,html{
+  font-family: 'Chivo', sans-serif;
+}
+
+div.introContainer{
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+	margin-left: -15px;
+}
+
+h1.bioTitle{
+	font-weight: bold;
+	color: #484848;
+	font-size: 32px;
+	line-height: 38px;
+}
+
+p.aboutYou{
+	color: #58585B;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+input.firstName{
+	width: 256px;
+	height: 36px;
+	background-color: #FFFFFF;
+	border: 1px solid #D0D2D3;
+	border-radius: 2px;
+	margin-top: 25px;
+	margin-left: 11px;
+	padding-left: 6.5%;
+	display:flex;
+	flex-wrap: wrap;
+}
+input.lastName{
+	width: 256px;
+	height: 36px;
+	background-color: #FFFFFF;
+	border: 1px solid #D0D2D3;
+	border-radius: 2px;
+	margin-top: 25px;
+	margin-left: 11px;
+	padding-left: 6.5%;
+}
+button.btn.btn-default.dropdown-toggle{
+	width: 256px;
+	height: 36px;
+	background-color: #FFFFFF;
+	border: 1px solid #D0D2D3;
+	border-radius: 2px;
+	margin-left: 11px;
+	padding-right: 50%;
+	color: #9E9E9E;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+div.dropdown{
+	position: relative;	
+	width:268px;
+}
+
+div.dropdown a{
+	text-decoration: none;
+	color:#00A799;
+}
+div.dropdown-content{
+	list-style: none;
+	font-size:16px;
+	display: none;
+	position: absolute;
+	background-color: #ffff;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 5px rgba(0,0,0,0.2);
+	/*padding: 12px 16px;*/
+	
+	
+	width:256px;
+	margin-left:11px;
+}
+
+div.dropdown:hover div.dropdown-content{
+	display: block;
+	background-color:#white;
+	padding:0;
+	overflow-y: auto;
+	height:160px;
+	position: relative;
+
+}
+
+div.usaSVG{
+  background-image: url('../ui/usa.svg');
+  height: 15px;
+  width: 15px;
+  background-repeat: none;
+  display: inline-block;
+}
+
+div.canadaSVG{
+  background-image: url('../ui/canda.svg');
+  height: 15px;
+  width: 15px;
+  background-repeat: none;
+  display: inline-block;
+}
+div.japanSVG{
+  background-image: url('../ui/japan.svg');
+  height: 15px;
+  width: 15px;
+  background-repeat: none;
+  display: inline-block;
+}
+div.chinaSVG{
+  background-image: url('../ui/china.svg');
+  height: 15px;
+  width: 15px;
+  background-repeat: none;
+  display: inline-block;
+}
+div.afghanSVG{
+  background-image: url('../ui/afghanistan.svg');
+  height: 15px;
+  width: 15px;
+  background-repeat: none;
+  display: inline-block;
+}
+div.southAfricaSVG{
+  background-image: url('../ui/southAfrica.svg');
+  height: 15px;
+  width: 15px;
+  background-repeat: none;
+  display: inline-block;
+}
+div.koreaSVG{
+  background-image: url('../ui/korea.svg');
+  height: 15px;
+  width: 15px;
+  background-repeat: none;
+  display: inline-block;
+}
+div.brazilSVG{
+  background-image: url('../ui/brazil.svg');
+  height: 15px;
+  width: 15px;
+  background-repeat: none;
+  display: inline-block;
+}
+div.barbadosSVG{
+  background-image: url('../ui/barbados.svg');
+  height: 15px;
+  width: 15px;
+  background-repeat: none;
+  display: inline-block;
+}
+div.mexicoSVG{
+  background-image: url('../ui/mexico.svg');
+  height: 15px;
+  width: 15px;
+  background-repeat: none;
+  display: inline-block;
+}
+.btn .caret {
+	margin-top: 8px;
+	margin-left: 125px;
+}
+
+span.caret{
+	margin-top: 2px;
+	color: #00A799;
+	position: absolute;
+}
+
+button.btn.btn-default.continue{
+	width: 256px;
+	height: 41px;
+	background-color: #00A799;
+	border-radius: 4px;
+	text-align: center;
+	color: white;
+	margin-left: 11px;
+	margin-top: 25px;
+	padding-right:7%;
+}
+
+a#skippie{
+	margin-left: 106px;
+	display:flex;
+	margin-top:25px;
+	font-weight: bold;
+	color: #00A799;
+	font-size: 14px;
+	line-height: 17px;
+}

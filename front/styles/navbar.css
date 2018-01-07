@@ -1,0 +1,113 @@
+.navbar {
+	height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    box-sizing: border-box;
+	height: 51px;
+	background-color: white;
+	border: 1px solid #E5E6E7;
+	flex-direction: row;
+	padding-top: 15px;
+	margin-bottom: 0;
+}
+
+.parent-logo{
+	margin-left: 10px;
+	height: auto;
+	width: 60px;
+    flex: 1 1 auto;
+    align-self: flex-start;
+}
+
+.logo-nav {
+	background-image: url('../ui/Wanderly-Logo.svg');
+	height: 20px;
+	width: 120px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.buttons {
+	margin-right: 15px;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.login-link:focus {
+	outline: none;
+}
+
+.button-log {
+	width: 48px;
+	height: 17px;
+	font-family: Chivo;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 17px;
+	color: #00A799;
+	border: transparent;
+	background-color: white;
+	border: 0;
+}
+
+.button-log:focus {
+	outline: none;
+}
+
+#name-nav{
+	display: flex;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #00A799;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+div.log-arrow {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    z-index: 1;
+    border: none;
+}
+
+.dropdown-content .logout {
+    text-decoration: none;
+    display: block;
+    align-self: center;
+
+}
+
+.logout {
+	font-family: Chivo;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 17px;
+	color: #00A799;
+	border: transparent;
+	background-color: white;
+	border: 0;
+}
+.logout:focus {
+	outline: none;
+}
+
+.dropdown-content .logout:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
